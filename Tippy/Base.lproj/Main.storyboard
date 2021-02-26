@@ -26,7 +26,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$0.00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pOf-Zt-nge">
-                                        <rect key="frame" x="30" y="54" width="109.5" height="48"/>
+                                        <rect key="frame" x="30" y="50" width="109.5" height="48"/>
                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="40"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -35,8 +35,8 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstItem="pOf-Zt-nge" firstAttribute="leading" secondItem="FRz-1R-i5V" secondAttribute="leading" constant="30" id="2hd-ks-1ov"/>
+                                    <constraint firstItem="pOf-Zt-nge" firstAttribute="top" secondItem="NMR-Ru-0vT" secondAttribute="bottom" constant="8" id="AFS-DM-icP"/>
                                     <constraint firstItem="NMR-Ru-0vT" firstAttribute="leading" secondItem="FRz-1R-i5V" secondAttribute="leading" constant="30" id="OF9-cb-sTY"/>
-                                    <constraint firstItem="pOf-Zt-nge" firstAttribute="top" secondItem="NMR-Ru-0vT" secondAttribute="bottom" constant="12" id="Q1n-gL-aGs"/>
                                     <constraint firstItem="NMR-Ru-0vT" firstAttribute="top" secondItem="FRz-1R-i5V" secondAttribute="top" constant="20" id="TJx-ZN-7Bh"/>
                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="120" id="ecY-28-7J3"/>
                                     <constraint firstItem="NMR-Ru-0vT" firstAttribute="top" secondItem="FRz-1R-i5V" secondAttribute="top" constant="20" id="iI6-kr-Oq6"/>
@@ -46,8 +46,8 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3aF-Ha-PbI">
                                 <rect key="frame" x="36" y="718" width="342" height="120"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="$0.00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8qM-bu-rBt">
-                                        <rect key="frame" x="30" y="54" width="266" height="48"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$0.00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8qM-bu-rBt">
+                                        <rect key="frame" x="30" y="50" width="109.5" height="48"/>
                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="40"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -64,7 +64,7 @@
                                     <constraint firstItem="8qM-bu-rBt" firstAttribute="leading" secondItem="3aF-Ha-PbI" secondAttribute="leading" constant="30" id="3D9-L3-Oyk"/>
                                     <constraint firstItem="MyR-y9-hTP" firstAttribute="top" secondItem="3aF-Ha-PbI" secondAttribute="top" constant="20" id="456-i6-0Oc"/>
                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="120" id="J8j-ob-EvD"/>
-                                    <constraint firstItem="8qM-bu-rBt" firstAttribute="top" secondItem="MyR-y9-hTP" secondAttribute="bottom" constant="12" id="ZAw-Jx-f65"/>
+                                    <constraint firstItem="8qM-bu-rBt" firstAttribute="top" secondItem="MyR-y9-hTP" secondAttribute="bottom" constant="8" id="UF8-jd-yY8"/>
                                     <constraint firstItem="MyR-y9-hTP" firstAttribute="top" secondItem="3aF-Ha-PbI" secondAttribute="top" constant="20" id="g9F-ez-me8"/>
                                     <constraint firstItem="MyR-y9-hTP" firstAttribute="leading" secondItem="3aF-Ha-PbI" secondAttribute="leading" constant="30" id="kF1-PR-Gsz"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="120" id="tBs-A6-dFt"/>
@@ -156,13 +156,13 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Q70-3P-Fbb">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter bill amount here" minimumFontSize="24" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Q70-3P-Fbb">
                                         <rect key="frame" x="30" y="60" width="286" height="38"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="38" id="D3B-d6-nE9"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="decimalPad" keyboardAppearance="light"/>
                                         <connections>
                                             <action selector="textFieldChanged:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="9hr-Yz-lYC"/>
                                         </connections>
