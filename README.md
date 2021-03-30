@@ -6,8 +6,9 @@ Tippy is a tip calculator application for iOS.
 
 The following functionality is implemented:
 
-* User can enter a bill amount, choose a tip percentage, and see the tip and total values.
-* User can select between tip percentages by tapping different values on the segmented control and the tip value is updated accordingly
+* User can enter a bill amount to update the total value
+* User can select a tip percentage to update the tip value and total value
+* User can select a party size to update the total price per person
 
 ## Video Walkthrough
 
